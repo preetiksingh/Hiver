@@ -1,0 +1,276 @@
+.header {
+  background-color: #52ab92;
+
+  left: 0px;
+  top: 0px;
+  width:100%;
+  min-height: 230px;
+  z-index: 2;
+}
+
+.ring{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 18px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  z-index: 14;
+}
+.phone {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 3.2;
+  float: left;
+  top: 15px;
+  z-index: 13;
+  display: inline-block;
+}
+.ring i{
+  color: white;
+  font-size: 20px;
+  padding-top: 2px;
+}
+
+.wow{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.123;
+  z-index: 11;
+  letter-spacing: 3px;
+}
+.with{
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  z-index: 12;
+}
+
+.navbar{
+  margin-bottom:0px !important;
+}
+
+.icon-bar{
+  background-color: white;
+}
+.navbar-toggle{
+  border-color: white !important;
+}
+
+@media only screen and (max-width:768px){
+  li{
+    display: inline-block !important;
+  }
+  .phone{
+    float: none !important;  
+    position: initial !important;
+  }
+  .navbar-brand > img{
+    max-height: 50px;
+    max-width: 100px;
+    padding-left: 8px;
+  }
+  .mar{
+    margin-top:25px;
+  }
+}
+@media only screen and (max-width:564px){
+  .wow{
+    font-size: 35px;
+  }
+  .with{
+    font-size: 18px;
+  }
+  .header{
+    min-height: 160px;
+  }
+}
+@media only screen and (max-width:394px){
+  .wow{
+    font-size: 25px;
+  }
+  .with{
+    font-size: 15px;
+  }
+  .header{
+    min-height: 160px;
+  }
+}
+@media only screen and (max-width:280px){
+  .wow{
+    font-size: 20px;
+  }
+  .with{
+    font-size: 12px;
+  }
+  .header{
+    min-height: 180px;
+  }
+}
+.img-responsive{
+  max-height: 87px;
+  max-width: 87px;
+  border-radius: 50%;
+}
+body{
+  background-color: #f9f9f9;
+}
+.quote{
+  display: inline-block;
+  font-size: 50px;
+  color: gray;
+  float: left;
+}
+
+.Hiver {
+  font-size: 16px;
+  font-family: "OpenSansLight";
+  color: rgb(128, 127, 127);
+  font-style: italic;
+  line-height: 1.375;
+  z-index: 34;
+}
+.Christian {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(65, 65, 65);
+  line-height: 1.583;
+  z-index: 33;
+}
+.quote1{
+  display: inline-block;
+  font-size: 50px;
+  color: gray;
+  float: right;
+  margin-top: -30px;
+  padding-right: 30px;
+}
+.fo{
+  min-height: 210px;
+}
+.btn-warning{
+  background-color: #ef7126 !important;
+}
+.form{
+  background-color: white !important;
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px lightgray;
+  padding: 10px 10px 20px;
+  border: 1px solid lightgray;
+}
+@media only screen and (min-width:768px){
+  .form{
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+  .wow{
+    font-size: 50px !important;
+  }
+}
+.by{
+  font-size: 11px;
+  
+  color: rgb(165, 165, 165);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 24;
+  line-height: 3.364;
+}
+.area2{
+  background-color: white;
+  min-height: 330px;
+}
+.nav>li>a:hover {
+  background-color: #52ab92 !important;
+}
+.nav>li>a:focus {
+  background-color: #52ab92 !important;
+}
+
+@media only screen and (max-width: 360px){
+  .hid{
+    width: 60% !important;
+    left: 5%;
+  }
+}
+@media only screen and (max-width: 320px){
+  .hid{
+    width: 80% !important;
+    left: 5%;
+  }
+}
+.QSA {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(108, 108, 108);
+  text-transform: uppercase;
+  line-height: 1.267;
+  z-index: 67;
+  text-align: center;
+}
+.Get{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(105, 105, 105);
+  line-height: 1.462;
+  text-align: center;
+  z-index: 68;
+  margin: 0px 20px 0px 20px;
+}
+
+@media only screen and (min-width:768px){
+  .mar{
+    margin-top: 50px;
+  }
+}
+.ste{
+  min-height: 120px;
+}
+@media only screen and (min-width:768px){
+  .mar1{
+    margin-top: 35px;
+  }
+}
+.fot{
+  background-color: white;
+}
+
+@media only screen and (max-width: 373px){
+  .ima{
+    width: 100%;
+  }
+}
+.Simple{
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(121, 121, 121);
+  line-height: 3.364;
+  z-index: 7;
+}
+.logo2{
+  margin-top: 10px;
+}
+label{
+  color: rgb(165, 165, 165);
+  font-family: 'Open Sans', sans-serif;
+}
+.family{
+  font-family: 'Open Sans', sans-serif;
+  outline:none !important;
+}
+
+@media only screen and (min-width:1200px){
+  .simp{
+    float: right;
+  }
+}
+@media only screen and (max-width:992px){
+  .bor{
+    display: none;
+  }
+}
